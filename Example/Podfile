@@ -1,0 +1,14 @@
+#use_frameworks!
+source 'http://192.168.10.81/IOS/commline/iOSPod.git'
+source 'https://github.com/CocoaPods/Specs.git'
+
+
+target 'yoyoyo_Example' do
+  pod 'yoyoyo', :path => '../'
+
+  target 'yoyoyo_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
